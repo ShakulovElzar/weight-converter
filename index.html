@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weight converter</title>
+
+        <link rel="stylesheet" href="/src/css/normalize.css" />
+        <link rel="stylesheet" href="/src/css/style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <h1 class="display-3 text-center text-white">Weight converter</h1>
+                <div class="form-group">
+                    <input
+                        type="number"
+                        aria-describedby="inputGroup-sizing-lg"
+                        placeholder="Enter Pound"
+                        class="form-control"
+                        id="counterInput"
+                    />
+
+                    <div class="card bg-primary">
+                        <div class="card-body">
+                            <h4 class="card-title">Grams:</h4>
+                            <p class="card-text" id="gramsoutput"></p>
+                        </div>
+                    </div>
+                    <div class="card bg-danger">
+                        <div class="card-body">
+                            <h4 class="card-title">Kilograms:</h4>
+                            <p class="card-text" id="kilogramsoutput"></p>
+                        </div>
+                    </div>
+                    <div class="card bg-success">
+                        <div class="card-body">
+                            <h4 class="card-title">Ounces:</h4>
+                            <p class="card-text" id="ouncesoutput"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/src/js/counter.js"></script>
+    </body>
+</html>
